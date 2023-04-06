@@ -1,7 +1,6 @@
 import 'package:agora_demo_app/home_page.dart';
 import 'package:flutter/material.dart';
 
-
 void main() {
   runApp(const MyApp());
 }
@@ -16,12 +15,11 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Agora Demo App',
       theme: ThemeData(
-
         primarySwatch: Colors.blue,
       ),
-      home:  HomePage(title: 'Agora',),
+      home: HomePage(
+        title: 'Agora',
+      ),
     );
   }
 }
-
-
